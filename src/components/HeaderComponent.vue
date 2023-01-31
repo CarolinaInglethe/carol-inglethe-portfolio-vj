@@ -6,7 +6,7 @@
       </div>
       <nav class="header-elements nav-bar">
           <router-link class="link-navbar" to="/">Home</router-link>
-          <router-link class="link-navbar" to="/about">Sobre</router-link>
+          <router-link class="link-navbar" to="/sobre">Sobre</router-link>
           <router-link class="link-navbar" to="/portfolio">Portfólio</router-link>
           <router-link class="link-navbar" to="/tecnologias">Tecnologias</router-link>
           <router-link class="link-navbar" to="/experiencias">Experiências</router-link>

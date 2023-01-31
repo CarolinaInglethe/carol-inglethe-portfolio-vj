@@ -7,7 +7,7 @@
             <h1>Eu sou uma <br/> Programadora</h1>
             <h4>Seja bem-vindo(a) ao meu Portfólio website</h4>
           </div>
-          <button>Saiba mais sobre mim</button>
+          <router-link class="link-navbar" to="/sobre"><button> Saiba mais sobre mim</button></router-link>
         </section>
         <img class="homepage-image-developer-girl" src="../../public/img/imagem-programadora.png.png" alt="Imagem de uma mulher no computador">
       </div>
@@ -18,12 +18,6 @@
       </div>
   </div>
 </template>
-
-<script>
-export default {
-name: 'HomePage',
-}
-</script>
 
 <style>
 .home-page {
@@ -44,6 +38,11 @@ color: rgb(243, 246, 248);
 font-size: large;
 margin-top: 40px;
 padding: 10px 16px;
+}
+.home-page button:hover {
+  color: rgba(66, 45, 94, 0.959);
+  background-color: aliceblue;
+  border: 1px solid rgba(66, 45, 94, 0.959);
 }
 .homepage-image-developer-girl {
 width: 450px;
