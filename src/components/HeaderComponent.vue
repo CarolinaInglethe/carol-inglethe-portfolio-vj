@@ -1,5 +1,5 @@
 <template>
-    <div class="elements-row">
+    <div class="header-component">
         <div class="header-elements">
           <img src="../assets/image-logo-html-girl-purple.png" alt="" width="67">
           <h3>Carolina Inglethe</h3>
@@ -22,7 +22,7 @@
 </script>
 
 <style>
-  .elements-row {
+  .header-component {
     display: flex;
     justify-content: space-around;
   }

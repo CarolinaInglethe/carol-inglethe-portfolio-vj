@@ -1,6 +1,6 @@
 <template>
     <div class="home-page">
-        <div class="elements-row">
+        <div class="home-page-elements">
           <section>
             <div class="home-page-texts">
               <h4>Olá pessoas,</h4>
@@ -31,6 +31,10 @@ export default {
 <style>
  .home-page {
   padding: 100px 55px;
+ }
+ .home-page-elements {
+  display: flex;
+  justify-content: space-around;
  }
  .home-page-texts h1 {
   font-size: xxx-large;
