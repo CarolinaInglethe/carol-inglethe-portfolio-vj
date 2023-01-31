@@ -1,13 +1,16 @@
 <template>
+  <HeaderComponent/>
   <HomePage msg="Welcome to my portfolio"/>
 </template>
 
 <script>
 import HomePage from './pages/HomePage.vue';
+import HeaderComponent from './components/HeaderComponent.vue'
 
 export default {
   name: 'App',
   components: {
+    HeaderComponent,
     HomePage
   }
 }
