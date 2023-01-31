@@ -1,8 +1,8 @@
 <template>
     <div class="elements-row">
         <div class="header-elements">
-          <p>Imagem</p>
-          <p>Carolina Inglethe</p>
+          <img src="../assets/image-logo-html-girl-purple.png" alt="" width="67">
+          <h3>Carolina Inglethe</h3>
         </div>
         <div class="header-elements">
           <p>Home</p>
@@ -28,6 +28,9 @@
   }
   .header-elements {
     display: flex;
+  }
+  .header-elements img {
+    margin: 0px 12px;
   }
   .header-elements p {
     padding: 0px 17px;
