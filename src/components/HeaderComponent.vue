@@ -17,23 +17,41 @@
 </template>
 
 <script>
- export default {
-    name: 'HeaderComponent'
- }
 
- let currentState = history.state;
- console.log(currentState)
- 
- switch(currentState) {
-  case '/':
-    console.log('Esta na pagina inicial');
-    break;
-  case '/sobre':
-    console.log('Está na pagina sobre');
-    break;
-  default:
-    console.log('Nenhuma')
-}
+ export default {
+    name: 'HeaderComponent',
+    data() {
+      return {
+        historyNav: ''
+      }
+    },
+    methods: {
+      changeStyleNavBar() {
+        switch(this.historyNav) {
+          case '/':
+            console.log('Esta na pagina inicial');
+            break;
+          case '/sobre':
+            console.log('Está na pagina sobre');
+            break;
+         default:
+            console.log('Nenhuma')
+        }
+      }
+    },
+    mounted() {
+      console.log("DOM Montadoooo")
+      this.historyNav = history.state.current
+      console.log(this.historyNav)
+      this.changeStyleNavBar()
+    },
+    unmounted() {
+      console.log("DOM Atualizado")
+      this.historyNav = history.state.current
+      console.log(this.historyNav)
+      this.changeStyleNavBar()
+    }
+ }
 </script>
 
 <style>
