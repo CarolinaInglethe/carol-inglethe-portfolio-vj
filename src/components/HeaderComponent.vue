@@ -1,10 +1,10 @@
 <template>
     <div class="header-component">
         <div class="header-elements">
-          <img src="../assets/image-logo-html-girl-purple.png" alt="" width="67">
-          <h3>Carolina Inglethe</h3>
+          <img src="../../public/img/image-logo-html-girl-purple.png" alt="" width="67">
+          <h2>Carolina Inglethe</h2>
         </div>
-        <div class="header-elements">
+        <div class="header-elements nav-bar">
           <p>Home</p>
           <p>Sobre</p>
           <p>Portfólio</p>

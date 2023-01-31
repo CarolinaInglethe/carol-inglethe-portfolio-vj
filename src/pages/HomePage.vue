@@ -9,12 +9,12 @@
             </div>
             <button>Saiba mais sobre mim</button>
           </section>
-          <img class="homepage-image-developer-girl" src="../assets/imagem-programadora.png.png" alt="Imagem de uma mulher no computador">
+          <img class="homepage-image-developer-girl" src="../../public/img/imagem-programadora.png.png" alt="Imagem de uma mulher no computador">
         </div>
         <div class="homepage-social-media">
-          <img src="../assets/logo-github.png" alt="logo da ferramenta git">
-          <img src="../assets/logo-linkedin.png" alt="logo da ferramenta linkedin">
-          <img src="../assets/logo-instagram.png" alt="logo da ferramenta instagram">
+          <img src="../../public/img/logo-github.png" alt="logo da ferramenta git">
+          <img src="../../public/img/logo-linkedin.png" alt="logo da ferramenta linkedin">
+          <img src="../../public/img/logo-instagram.png" alt="logo da ferramenta instagram">
         </div>
     </div>
 </template>
