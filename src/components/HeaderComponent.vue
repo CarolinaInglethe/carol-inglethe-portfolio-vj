@@ -7,9 +7,9 @@
         <div class="header-elements">
           <p>Home</p>
           <p>Sobre</p>
-          <p>portfolio</p>
+          <p>Portfólio</p>
           <p>Tecnologias</p>
-          <p>Experiencia</p>
+          <p>Experiência</p>
           <p>Contato</p>
         </div>
     </div>
