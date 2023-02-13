@@ -12,7 +12,7 @@
         <img class="homepage-image-developer-girl" src="../../public/img/imagem-programadora.png.png" alt="Imagem de uma mulher no computador">
       </div>
       <div class="homepage-social-media">
-        <a href="https://github.com/CarolinaInglethe" target="_blank"><img src="../../public/img/logo-github.png" alt="logo da ferramenta git"></a>
+        <a href="https://github.com/CarolinaInglethe" target="_blank"><img src="../../public/img/logo-git.png" alt="logo da ferramenta git"></a>
         <a href="https://www.linkedin.com/in/carolina-inglethe-b1b86a1b8/" target="_blank"><img src="../../public/img/logo-linkedin.png" alt="logo da ferramenta linkedin"></a>
         <a href="https://www.instagram.com/inglethe_ca/" target="_blank"><img src="../../public/img/logo-instagram.png" alt="logo da ferramenta instagram"></a>
       </div>
