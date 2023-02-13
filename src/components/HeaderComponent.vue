@@ -58,7 +58,7 @@
   .header-component {
     display: flex;
     justify-content: space-around;
-    padding: 2%;
+    padding: 1% ;
   }
   .header-elements {
     display: flex;
