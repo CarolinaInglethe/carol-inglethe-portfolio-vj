@@ -6,7 +6,7 @@
       <h1>Inglethe</h1>
     </div>
     <div class="about-text">
-      <p>Meu nome é Carolina Inglethe de Souza Araújo.<br/> Sou do Brasil,Belo Horizonte/MG.</p>
+      <p>Meu nome é Carolina Inglethe de Souza Araújo. Sou do Brasil,Belo Horizonte/MG.</p>
       <p>Sou Engenheira de software. Formada no curso profissionalizante de<br/> Desenvolvimento Web Fullstack da Trybe</p>
     </div>
    
@@ -32,7 +32,7 @@
 
 <style>
   .about {
-    padding: 10px 300px;
+    padding: 10px 20%;
   }
   .about img {
     margin-top: 10px;
@@ -60,9 +60,14 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .about-skills h1 {
+    padding: 5px;
   }
   .about-skills h3 {
-    margin: 40px 30px;
+    margin: 35px 24px;
   }
   .word-purple {
     color: #483357e1;
