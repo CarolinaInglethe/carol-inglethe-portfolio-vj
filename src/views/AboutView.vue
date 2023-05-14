@@ -16,11 +16,11 @@
         <h1 class="word-purple">Skills</h1>
       </div>
       <div class="about-skills-imgs">
-        <h3>JavaScript <br> <img src="../../public/img/gráfico-skills-5.png" alt="Grafico nivel 5" width="155"></h3>
+        <h3>JavaScript <br> <img src="../../public/img/gráfico-skills-4.png" alt="Grafico nivel 5" width="155"></h3>
         <h3>CSS <br> <img src="../../public/img/gráfico-skills-5.png" alt="Grafico nivel 5" width="155"></h3>
         <h3>HTML <br> <img src="../../public/img/gráfico-skills-5.png" alt="Grafico nivel 5" width="155"></h3>
-        <h3>React <br> <img src="../../public/img/gráfico-skills-4.png" alt="Grafico nivel 4" width="155"></h3>
-        <h3>Vue <br> <img src="../../public/img/gráfico-skills-2.png" alt="Grafico nivel 2" width="155"></h3>
+        <h3>React <br> <img src="../../public/img/gráfico-skills-3.png" alt="Grafico nivel 4" width="155"></h3>
+        <h3>Vue <br> <img src="../../public/img/gráfico-skills-1.png" alt="Grafico nivel 2" width="155"></h3>
         <h3>TypeScript <br> <img src="../../public/img/gráfico-skills-1.png" alt="Grafico nivel 1" width="155"></h3>
         <h3>Node <br> <img src="../../public/img/gráfico-skills-3.png" alt="Grafico nivel 3" width="155"></h3>
         <h3>Python <br> <img src="../../public/img/gráfico-skills-1.png" alt="Grafico nivel 1" width="155"></h3>

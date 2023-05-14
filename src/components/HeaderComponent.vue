@@ -5,7 +5,7 @@
           <h2>Carolina Inglethe</h2>
       </div>
       <nav class="header-elements nav-bar">
-          <router-link class="link-navbar" to="/">Home</router-link>
+          <router-link class="link-navbar link-ativo" to="/">Home</router-link>
           <router-link class="link-navbar" to="/sobre">Sobre</router-link>
           <router-link class="link-navbar" to="/portfolio">Portfólio</router-link>
           <router-link class="link-navbar" to="/tecnologias">Tecnologias</router-link>
@@ -71,5 +71,9 @@
     color: black;
     padding: 3% 20px;
     text-decoration: none;
+  }
+  .link-ativo {
+    color: white;
+    background-color: blueviolet;
   }
 </style>
